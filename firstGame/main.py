@@ -9,7 +9,7 @@ print("Hello " + name + ", you are " + str(age) + " years old.")
 if age >= 18:
     print("You are old enough to play!")
 
-    weapon = input("Pick a weapon (Sword/Baton/Taser): ")
+    weapon = input("Pick a weapon (Sword/Baton): ")
     want_to_play = input("Do you want to play? (Y/N)").upper()
     if want_to_play == "Y":
         print("You are starting with 10 health. Let's play!")
